@@ -1,0 +1,12 @@
+[package]
+name = "camellia"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+skia-safe = { version = "0.60", features=["gl", "textlayout"]}
+gl = "0.14"
+glutin = "0.30"
+winit = "0.28"
+glutin-winit = "0.3"
+raw-window-handle = "0.5"
